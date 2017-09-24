@@ -1,0 +1,375 @@
+/*
+Version: 1.3
+*/
+a {
+    color: #4caf50;
+}
+a:hover {
+    color: #57d65c;
+}
+a,a:hover{text-decoration: none;}
+.well-sm.post_info_well {
+    padding: 5px;
+    border-radius: 0px;
+}
+.well.post_info_well {
+    background-color: rgba(245, 245, 245, 0.26);
+    border: 1px solid rgba(227, 227, 227, 0.24);
+    margin-bottom: 4px;
+    webkit-box-shadow: inset 0 0 0 rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 rgba(0,0,0,0);
+
+}
+.post_single {
+    background: #fff;
+    padding: 0 10px;
+    margin-bottom: 11px;
+    overflow: hidden;
+}
+.single .post_single{padding-bottom: 10px;}
+.single_post_title {
+    background: #4CAF50;
+    padding: 10px 15px;
+    margin-top: 0;
+    line-height: normal;
+}
+.single_post_title>a,.single_post_title_wrapper>h3 {
+    color: white !important;
+}
+.page-template nav.navbar.navbar-default,.page-template nav.navbar.navbar-inverse{margin-bottom: 0 !important;}
+.container.header {
+    padding: 5px 0;
+}
+.well.well-sm {
+    font-size: 11px;
+}
+.post_comment_area {
+    background: white;
+}
+.comment.depth-1 {
+    border-bottom: 1px solid rgba(35, 40, 45, 0.05);
+    padding-bottom: 9px;
+    padding-top: 2px;
+}
+ul.children .comment {
+    border-bottom: 1px solid rgba(248, 249, 250, 0.86);
+    padding-bottom: 2px;
+    padding-top: 5px;
+}
+ul.children {
+    background: rgba(76, 175, 80, 0.04);
+}
+.read_more_button_wrapper{margin-bottom: 6px;}
+/*.search_button{margin-top: 5px;}*/
+.sidebar {
+    background: rgba(255, 255, 255, 0.85);
+    /*background: rgba(76, 175, 80, 0.06);*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #4CAF50;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+
+    background-color: #4caf50;
+}
+.post_single,.page_content,h1,h2,h3,h4,h5,h6,p,single_post_content,comment-content{word-wrap: break-word !important;-ms-word-wrap: break-word;}
+.comment-content,.widget_wrapper {
+    /*width: 48%;*/
+    word-wrap: break-word;
+}
+a.page-numbers {
+    border: 1px solid rgba(189, 226, 190, 0.39);
+    padding: 6px 7px;
+    background: rgba(76, 175, 80, 0.04);
+}
+a.page-numbers:hover,span.page-numbers {
+    border: 1px solid rgba(172, 220, 174, 0.56);
+    padding: 6px 7px;
+    background: rgba(76, 175, 80, 0.12);
+}
+.btn-primary {
+    color: #fff;
+    background-color: #4caf50;
+    border-color: #3b903f;
+}
+.btn-primary:hover{
+    background-color: #38983b;
+    border-color: #2f7732;
+}
+.pagination_wrapper .pagination {
+    margin-top: -10px;
+}
+.pagination_wrapper .screen-reader-text {
+    color: gray;
+    font-size: 18px;
+    font-weight: normal;
+}
+.cat_tag_list {
+    padding: 2px 0 10px 0;
+    border-top: 1px solid #eaeaea;
+    color: gray;
+    clear: both;
+}
+.categories_list.cat_tag_list {
+    padding: 5px;
+}
+.footer_socket {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.post_page_pagination {
+    border-top: 1px solid rgba(76, 175, 80, 0.66);
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.single_post_feature_image {
+    padding-bottom: 10px;
+    padding-top: 4px;
+}
+.post img,.post_area img,p img, p>img,figure img,figure>img{
+    max-width: 100%;
+    height: initial;
+}
+.single_post_content {
+    padding-top: 5px;
+}
+.navbar{margin-bottom: 11px;}
+.bloog_loop_2 .single_post_title,.bloog_loop_4 .single_post_title {
+    background: #6f6f6f;
+    padding: 5px 15px;
+    font-weight: normal;
+}
+.thumbs_wrapper {
+    margin-bottom: 6px;
+}
+
+/*Author Biography*/
+.author_biography.author_section_wrapper {
+    background: #FAFAFA;
+    margin-bottom: 30px;
+    padding-bottom: 22px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.24);
+    border: 1px solid #ddd;
+}
+h4.social_connection {
+    color: #2a8290;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #2a8290;
+}
+
+.social_icons>a {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background: #f1f1f1;
+    margin-right: 10px;
+    border: 1px solid rgba(42, 130, 144, 0.25);
+    transition: all .4s;
+}
+.social_icons>a:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(202, 202, 202, 0.25);
+}
+a.bio_social>img {
+    padding: 16px;
+    transform: rotate(0deg);
+    transition: transform .5s;
+}
+a.bio_social:hover>img {
+    transform: rotate(360deg);
+}
+
+h1.error_404_title {
+    font-size: 10em;
+    color: #ce0909;
+    font-weight: bold;
+    text-shadow: -4px 5px 5px rgba(0, 0, 0, 0.53);
+    padding-top: 10%;
+}
+.profile_image_wrapper {
+    padding-top: 10px;
+}
+.bloog_loop_5 {
+    padding-top: 19px;
+}
+
+
+button.search_button {
+        width: 19%;
+    float: left !important;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+        /*padding: 9px;*/
+}
+input#search_id_btb {
+    float: left !important;
+    width: 80%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.screen-reader-text {
+    display: none;
+}
+.pagination_wrapper {
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+        text-align: center;
+}
+.search_input_wrapper{
+    display: table;
+    clear: both;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #f8fafa;
+}
+.post_single.sticky{
+    background: rgba(76, 175, 80, 0.19);
+    border-bottom: 6px solid #4caf50;
+    padding-bottom: 20px;
+}
+.post_single.sticky .single_post_title {
+    background: rgba(19, 27, 19, 0.74);
+    padding: 10px 15px;
+}
+li.sticky>a {
+    color: black !important;
+    border-bottom: 1px solid rgba(76, 175, 80, 0.13);
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+.post_single.sticky.bloog_loop_2 .single_post_title,.post_single.sticky.bloog_loop_4 .single_post_title {
+    background: rgb(92, 184, 92);
+    padding: 10px 15px;
+}
+
+.single-post .format-chat .single_post_content>p {
+    color: #99a099;
+    border: 1px solid rgba(76, 175, 80, 0.14);
+    padding: 10px;
+    background: rgba(76, 175, 80, 0.02);
+}
+.single-post .format-chat .single_post_content>p:hover {
+    border: 1px solid rgba(76, 175, 80, 0.24);
+    background: rgba(76, 175, 80, 0.05);
+}
+
+
+@media only screen and (min-width:992px){
+    .right_sidebar_setting {
+        float: left;
+    }
+    .left_sidebar_setting {
+        float: right;
+    }
+}
+@media only screen and (max-width:991px){
+    .sidebar {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Woocommerce Style*/
+input[type='text'],input[type='phone'],input[type='number'],input[type='tel'],input[type='password'],input[type='email'],textarea {
+    color: #6b5252;
+    padding: 9px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+select.orderby,select {
+    padding: 6px;
+}
+.woocommerce div.product form.cart .button {
+    padding: 13px 25px;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    padding: 1.1em 2em;
+    background-color: #4caf50;
+    color: #ecffd5;
+}
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover {
+    color: white;
+    background-color: #3c9c40;
+}
+.woocommerce ul.products li.product .button {
+    margin-top: .1em;
+    padding: .79em 1.5em;
+}
+.woocommerce div.product .post_single {
+    padding-top: 15px !important;
+}
+
+.woocommerce div.product form.cart .label {
+    font-size: 111%;
+    font-weight: normal;
+    line-height: 1;
+    color: #b3b3b3;
+    text-align: center;
+    white-space: pre-wrap;
+    vertical-align: baseline;
+    border-radius: 0;
+    padding: .22em;
+    display: block;
+}
+.woocommerce div.product form.cart .variations td.label {
+    background: #f9f9f9;
+}
+.woocommerce div.product form.cart .variations td, .woocommerce div.product form.cart .variations th {
+    padding-left: 10px;
+}
+.woocommerce-product-gallery__image {
+    margin-bottom: 10px;
+}
+.woocommerce-product-gallery__image {
+    margin-right: 5px;
+}
+.woocommerce #respond input#submit.alt.disabled, .woocommerce #respond input#submit.alt.disabled:hover, .woocommerce #respond input#submit.alt:disabled, .woocommerce #respond input#submit.alt:disabled:hover, .woocommerce #respond input#submit.alt:disabled[disabled], .woocommerce #respond input#submit.alt:disabled[disabled]:hover, .woocommerce a.button.alt.disabled, .woocommerce a.button.alt.disabled:hover, .woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled:hover, .woocommerce a.button.alt:disabled[disabled], .woocommerce a.button.alt:disabled[disabled]:hover, .woocommerce button.button.alt.disabled, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:disabled, .woocommerce button.button.alt:disabled:hover, .woocommerce button.button.alt:disabled[disabled], .woocommerce button.button.alt:disabled[disabled]:hover, .woocommerce input.button.alt.disabled, .woocommerce input.button.alt.disabled:hover, .woocommerce input.button.alt:disabled, .woocommerce input.button.alt:disabled:hover, .woocommerce input.button.alt:disabled[disabled], .woocommerce input.button.alt:disabled[disabled]:hover {
+    background-color: #dcdcdc;
+    color: #6acc6e;
+}
+
+input#coupon_code {
+    color: #4caf50;
+    padding: 9px;
+    width: 116px;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.woocommerce .woocommerce-product-rating .star-rating,.woocommerce .star-rating span {
+    color: #f9d100;
+}
+.woocommerce .star-rating::before {
+    content: '\53\53\53\53\53';
+}
+.woocommerce table, .woocommerce tr, .woocommerce td, .woocommerce th {
+    border: none;
+}
+ .woocommerce-cart .cart-collaterals .cart_totals tr th {
+    /*border-top: 1px solid #409243;*/
+}
+.woocommerce div.cart_totals.calculated_shipping table tr>th {
+    background: rgba(111, 121, 112, 0.08);
+    color: #000000 !important;
+}
+
